@@ -13,4 +13,5 @@ class Fraction(val a: Int,val b: Int) {
   def copy = new Fraction(this.a, this.b)
   def ^(c: Int) = if (c == 0) new Fraction(1, 1) else new Fraction(math.pow(a,c).toInt, math.pow(b,c).toInt)
   override def toString = if (b == 1) s"$a" else s"$a / $b"
+  def getDouble = a / b
 }

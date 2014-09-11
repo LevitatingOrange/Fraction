@@ -3,8 +3,8 @@
   <component name="FacetManager">
     <facet type="scala" name="Scala">
       <configuration>
-        <option name="compilerLibraryLevel" value="Project" />
-        <option name="compilerLibraryName" value="lib/scala-compiler.jar" />
+        <option name="compilerLibraryLevel" value="Global" />
+        <option name="compilerLibraryName" value="scala-lib-win" />
       </configuration>
     </facet>
   </component>
@@ -15,7 +15,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="lib/scala-library.jar" level="project" />
+    <orderEntry type="library" name="scala-lib-win" level="application" />
   </component>
 </module>
 
